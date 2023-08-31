@@ -1,0 +1,88 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "eaf6e622dd41b07b251d8f01752eab31bc811493",
+          "version": "5.4.1"
+        }
+      },
+      {
+        "package": "SSCommonCrypto",
+        "repositoryURL": "https://github.com/Azoy/common-crypto-spm.git",
+        "state": {
+          "branch": null,
+          "revision": "7e9904a0d0c0024a86ab6fe5698ffc8f7799efb4",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift",
+        "state": {
+          "branch": null,
+          "revision": "5da70ba744d58d772201f03600eb16c53197652d",
+          "version": "0.15.0"
+        }
+      },
+      {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/Azoy/Starscream.git",
+        "state": {
+          "branch": null,
+          "revision": "a21fca8e9dc83cf3a88a3ba9be15ff17a7e4e8d6",
+          "version": "3.0.5"
+        }
+      },
+      {
+        "package": "SwiftSoup",
+        "repositoryURL": "https://github.com/scinfu/SwiftSoup",
+        "state": {
+          "branch": null,
+          "revision": "774dc9c7213085db8aa59595e27c1cd22e428904",
+          "version": "2.3.2"
+        }
+      },
+      {
+        "package": "SwiftyHawk",
+        "repositoryURL": "https://github.com/cpageler93/SwiftyHawk",
+        "state": {
+          "branch": null,
+          "revision": "10409c4bd28e9ea5ee92d200c74d74ddb89c5069",
+          "version": "0.1.4"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Sword",
+        "repositoryURL": "https://github.com/Azoy/Sword",
+        "state": {
+          "branch": null,
+          "revision": "d8097bd5b3881d6d4bae4feebf005592f7ffa573",
+          "version": "0.9.2"
+        }
+      },
+      {
+        "package": "SSCZLib",
+        "repositoryURL": "https://github.com/Azoy/zlib-spm.git",
+        "state": {
+          "branch": null,
+          "revision": "f92fc0658af4cd9b11f233e9c02786ecbf75f1ee",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

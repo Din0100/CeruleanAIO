@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5001CC782622F66A00A3DFD9 /* Mesh Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5001CC772622F66A00A3DFD9 /* Mesh Headers.swift */; };
+		501BA1532612941B00E0A41A /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 501BA1522612941B00E0A41A /* SwiftSoup */; };
+		50818CE826204B1C000DB920 /* ErrorHandlingDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50818CE726204B1C000DB920 /* ErrorHandlingDataTypes.swift */; };
+		50818CEC26204B7D000DB920 /* DiscordWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50818CEB26204B7D000DB920 /* DiscordWebhook.swift */; };
+		50818CF226204EF6000DB920 /* Sword in Frameworks */ = {isa = PBXBuildFile; productRef = 50818CF126204EF6000DB920 /* Sword */; };
+		50818CF82620ABCF000DB920 /* TaskListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50818CF72620ABCF000DB920 /* TaskListItem.swift */; };
+		50838AEE260766D100705425 /* ProfilesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50838AED260766D100705425 /* ProfilesList.swift */; };
+		50838AF22607685800705425 /* DropDownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50838AF12607685800705425 /* DropDownModel.swift */; };
+		50838AF526076A2700705425 /* AddProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50838AF426076A2700705425 /* AddProfileView.swift */; };
+		50838AF82607906D00705425 /* ProxiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50838AF72607906D00705425 /* ProxiesView.swift */; };
+		50838AFB260798C700705425 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50838AFA260798C700705425 /* SettingView.swift */; };
+		5086C3D82613D1660084B989 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5086C3D72613D1660084B989 /* Alamofire */; };
+		509AF24E2627137F00E46E5E /* MeshBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509AF24D2627137F00E46E5E /* MeshBackend.swift */; };
+		509AF25126273A0700E46E5E /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509AF25026273A0700E46E5E /* Client.swift */; };
+		509BDFBF2625CD6300835DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509BDFBE2625CD6300835DE3 /* LaunchScreen.storyboard */; };
+		509EDA76260399B400FA5FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA75260399B400FA5FE8 /* AppDelegate.swift */; };
+		509EDA78260399B400FA5FE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA77260399B400FA5FE8 /* SceneDelegate.swift */; };
+		509EDA7A260399B400FA5FE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA79260399B400FA5FE8 /* ContentView.swift */; };
+		509EDA7D260399B400FA5FE8 /* ceruleanaios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA7B260399B400FA5FE8 /* ceruleanaios.xcdatamodeld */; };
+		509EDA7F260399B500FA5FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509EDA7E260399B500FA5FE8 /* Assets.xcassets */; };
+		509EDA82260399B500FA5FE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509EDA81260399B500FA5FE8 /* Preview Assets.xcassets */; };
+		509EDA8E2603D65900FA5FE8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA8D2603D65900FA5FE8 /* AddTaskView.swift */; };
+		509EDA922603D78000FA5FE8 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509EDA912603D78000FA5FE8 /* TaskList.swift */; };
+		50A9FD6C26106FD000AAC7D8 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9FD6B26106FD000AAC7D8 /* Proxy.swift */; };
+		50A9FD772610B3D900AAC7D8 /* GetProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9FD762610B3D900AAC7D8 /* GetProfiles.swift */; };
+		50B04FFF26287AAD00328AE1 /* JailbreakCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B04FFE26287AAD00328AE1 /* JailbreakCheck.swift */; };
+		50B8405D2615FE6000658B92 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 50B8405C2615FE6000658B92 /* SwiftyJSON */; };
+		50C779292624362300226B74 /* MeshTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C779282624362300226B74 /* MeshTask.swift */; };
+		50CBB5AA26415F52000D932C /* SwiftyHawk in Frameworks */ = {isa = PBXBuildFile; productRef = 50CBB5A926415F52000D932C /* SwiftyHawk */; };
+		50CBB5AD26416370000D932C /* Hawk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CBB5AC26416370000D932C /* Hawk.swift */; };
+		50F07E1B26513CE5009006E7 /* PostTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F07E1626513CE5009006E7 /* PostTicket.swift */; };
+		50F07E1F26513CE5009006E7 /* SupremeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F07E1A26513CE5009006E7 /* SupremeTask.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5001CC772622F66A00A3DFD9 /* Mesh Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mesh Headers.swift"; sourceTree = "<group>"; };
+		50818CE726204B1C000DB920 /* ErrorHandlingDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingDataTypes.swift; sourceTree = "<group>"; };
+		50818CEB26204B7D000DB920 /* DiscordWebhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscordWebhook.swift; sourceTree = "<group>"; };
+		50818CF72620ABCF000DB920 /* TaskListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListItem.swift; sourceTree = "<group>"; };
+		50838AED260766D100705425 /* ProfilesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesList.swift; sourceTree = "<group>"; };
+		50838AF12607685800705425 /* DropDownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownModel.swift; sourceTree = "<group>"; };
+		50838AF426076A2700705425 /* AddProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileView.swift; sourceTree = "<group>"; };
+		50838AF72607906D00705425 /* ProxiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxiesView.swift; sourceTree = "<group>"; };
+		50838AFA260798C700705425 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		509AF24D2627137F00E46E5E /* MeshBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshBackend.swift; sourceTree = "<group>"; };
+		509AF25026273A0700E46E5E /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		509BDFBE2625CD6300835DE3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		509EDA72260399B400FA5FE8 /* ceruleanaios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceruleanaios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		509EDA75260399B400FA5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		509EDA77260399B400FA5FE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		509EDA79260399B400FA5FE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		509EDA7C260399B400FA5FE8 /* ceruleanaios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ceruleanaios.xcdatamodel; sourceTree = "<group>"; };
+		509EDA7E260399B500FA5FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509EDA81260399B500FA5FE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		509EDA86260399B500FA5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509EDA8D2603D65900FA5FE8 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		509EDA912603D78000FA5FE8 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		50A9FD6B26106FD000AAC7D8 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		50A9FD762610B3D900AAC7D8 /* GetProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProfiles.swift; sourceTree = "<group>"; };
+		50B04FFE26287AAD00328AE1 /* JailbreakCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakCheck.swift; sourceTree = "<group>"; };
+		50C779282624362300226B74 /* MeshTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshTask.swift; sourceTree = "<group>"; };
+		50CBB5AC26416370000D932C /* Hawk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawk.swift; sourceTree = "<group>"; };
+		50F07E1626513CE5009006E7 /* PostTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTicket.swift; path = ceruleanaios/Modules/SupremeRequests/PostTicket.swift; sourceTree = SOURCE_ROOT; };
+		50F07E1A26513CE5009006E7 /* SupremeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupremeTask.swift; path = ceruleanaios/Modules/SupremeRequests/SupremeTask.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509EDA6F260399B400FA5FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50818CF226204EF6000DB920 /* Sword in Frameworks */,
+				501BA1532612941B00E0A41A /* SwiftSoup in Frameworks */,
+				50B8405D2615FE6000658B92 /* SwiftyJSON in Frameworks */,
+				50CBB5AA26415F52000D932C /* SwiftyHawk in Frameworks */,
+				5086C3D82613D1660084B989 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50700734262EC7B000BEDDC9 /* Mesh Backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mesh Backend";
+			sourceTree = "<group>";
+		};
+		50838AFD2607ECEA00705425 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				509EDA75260399B400FA5FE8 /* AppDelegate.swift */,
+				50A9FD762610B3D900AAC7D8 /* GetProfiles.swift */,
+				509EDA77260399B400FA5FE8 /* SceneDelegate.swift */,
+				509EDA79260399B400FA5FE8 /* ContentView.swift */,
+				509EDA912603D78000FA5FE8 /* TaskList.swift */,
+				50818CF72620ABCF000DB920 /* TaskListItem.swift */,
+				509EDA8D2603D65900FA5FE8 /* AddTaskView.swift */,
+				50838AED260766D100705425 /* ProfilesList.swift */,
+				50838AF426076A2700705425 /* AddProfileView.swift */,
+				50838AFA260798C700705425 /* SettingView.swift */,
+				50838AF72607906D00705425 /* ProxiesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50838AFE2607ED1100705425 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50838AF12607685800705425 /* DropDownModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50838AFF2607ED2A00705425 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				50F07E1526513CCF009006E7 /* Supreme */,
+				50700734262EC7B000BEDDC9 /* Mesh Backend */,
+				50818CE726204B1C000DB920 /* ErrorHandlingDataTypes.swift */,
+				50A9FD6B26106FD000AAC7D8 /* Proxy.swift */,
+				50818CEB26204B7D000DB920 /* DiscordWebhook.swift */,
+				50838B022607ED4300705425 /* Mesh Frontend */,
+				5001CC772622F66A00A3DFD9 /* Mesh Headers.swift */,
+				509AF25026273A0700E46E5E /* Client.swift */,
+				50CBB5AC26416370000D932C /* Hawk.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		50838B022607ED4300705425 /* Mesh Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				50C779282624362300226B74 /* MeshTask.swift */,
+				509AF24D2627137F00E46E5E /* MeshBackend.swift */,
+			);
+			path = "Mesh Frontend";
+			sourceTree = "<group>";
+		};
+		509EDA69260399B400FA5FE8 = {
+			isa = PBXGroup;
+			children = (
+				509EDA74260399B400FA5FE8 /* ceruleanaios */,
+				509EDA73260399B400FA5FE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		509EDA73260399B400FA5FE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509EDA72260399B400FA5FE8 /* ceruleanaios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509EDA74260399B400FA5FE8 /* ceruleanaios */ = {
+			isa = PBXGroup;
+			children = (
+				50A9FD6E2610906B00AAC7D8 /* ViewModel */,
+				50838AFF2607ED2A00705425 /* Modules */,
+				50838AFE2607ED1100705425 /* Model */,
+				50838AFD2607ECEA00705425 /* Views */,
+				509EDA7E260399B500FA5FE8 /* Assets.xcassets */,
+				509EDA86260399B500FA5FE8 /* Info.plist */,
+				509EDA7B260399B400FA5FE8 /* ceruleanaios.xcdatamodeld */,
+				509EDA80260399B500FA5FE8 /* Preview Content */,
+				509BDFBE2625CD6300835DE3 /* LaunchScreen.storyboard */,
+			);
+			path = ceruleanaios;
+			sourceTree = "<group>";
+		};
+		509EDA80260399B500FA5FE8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				509EDA81260399B500FA5FE8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50A9FD6E2610906B00AAC7D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50B04FFE26287AAD00328AE1 /* JailbreakCheck.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50F07E1526513CCF009006E7 /* Supreme */ = {
+			isa = PBXGroup;
+			children = (
+				50F07E1626513CE5009006E7 /* PostTicket.swift */,
+				50F07E1A26513CE5009006E7 /* SupremeTask.swift */,
+			);
+			path = Supreme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509EDA71260399B400FA5FE8 /* ceruleanaios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509EDA89260399B500FA5FE8 /* Build configuration list for PBXNativeTarget "ceruleanaios" */;
+			buildPhases = (
+				509EDA6E260399B400FA5FE8 /* Sources */,
+				509EDA6F260399B400FA5FE8 /* Frameworks */,
+				509EDA70260399B400FA5FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceruleanaios;
+			packageProductDependencies = (
+				501BA1522612941B00E0A41A /* SwiftSoup */,
+				5086C3D72613D1660084B989 /* Alamofire */,
+				50B8405C2615FE6000658B92 /* SwiftyJSON */,
+				50818CF126204EF6000DB920 /* Sword */,
+				50CBB5A926415F52000D932C /* SwiftyHawk */,
+			);
+			productName = ceruleanaios;
+			productReference = 509EDA72260399B400FA5FE8 /* ceruleanaios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509EDA6A260399B400FA5FE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					509EDA71260399B400FA5FE8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 509EDA6D260399B400FA5FE8 /* Build configuration list for PBXProject "ceruleanaios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 509EDA69260399B400FA5FE8;
+			packageReferences = (
+				501BA1512612941B00E0A41A /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				5086C3D62613D1660084B989 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				50B8405B2615FE5F00658B92 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				50818CF026204EF6000DB920 /* XCRemoteSwiftPackageReference "Sword" */,
+				50CBB5A826415F52000D932C /* XCRemoteSwiftPackageReference "SwiftyHawk" */,
+			);
+			productRefGroup = 509EDA73260399B400FA5FE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509EDA71260399B400FA5FE8 /* ceruleanaios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		509EDA70260399B400FA5FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509BDFBF2625CD6300835DE3 /* LaunchScreen.storyboard in Resources */,
+				509EDA82260399B500FA5FE8 /* Preview Assets.xcassets in Resources */,
+				509EDA7F260399B500FA5FE8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509EDA6E260399B400FA5FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509EDA922603D78000FA5FE8 /* TaskList.swift in Sources */,
+				50838AEE260766D100705425 /* ProfilesList.swift in Sources */,
+				50F07E1B26513CE5009006E7 /* PostTicket.swift in Sources */,
+				509EDA7D260399B400FA5FE8 /* ceruleanaios.xcdatamodeld in Sources */,
+				50818CE826204B1C000DB920 /* ErrorHandlingDataTypes.swift in Sources */,
+				50A9FD772610B3D900AAC7D8 /* GetProfiles.swift in Sources */,
+				50838AF82607906D00705425 /* ProxiesView.swift in Sources */,
+				50818CF82620ABCF000DB920 /* TaskListItem.swift in Sources */,
+				50A9FD6C26106FD000AAC7D8 /* Proxy.swift in Sources */,
+				50818CEC26204B7D000DB920 /* DiscordWebhook.swift in Sources */,
+				509EDA8E2603D65900FA5FE8 /* AddTaskView.swift in Sources */,
+				509AF25126273A0700E46E5E /* Client.swift in Sources */,
+				50B04FFF26287AAD00328AE1 /* JailbreakCheck.swift in Sources */,
+				50838AF22607685800705425 /* DropDownModel.swift in Sources */,
+				509EDA76260399B400FA5FE8 /* AppDelegate.swift in Sources */,
+				50C779292624362300226B74 /* MeshTask.swift in Sources */,
+				50CBB5AD26416370000D932C /* Hawk.swift in Sources */,
+				5001CC782622F66A00A3DFD9 /* Mesh Headers.swift in Sources */,
+				509EDA78260399B400FA5FE8 /* SceneDelegate.swift in Sources */,
+				50F07E1F26513CE5009006E7 /* SupremeTask.swift in Sources */,
+				509EDA7A260399B400FA5FE8 /* ContentView.swift in Sources */,
+				50838AF526076A2700705425 /* AddProfileView.swift in Sources */,
+				50838AFB260798C700705425 /* SettingView.swift in Sources */,
+				509AF24E2627137F00E46E5E /* MeshBackend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		509EDA87260399B500FA5FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		509EDA88260399B500FA5FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		509EDA8A260399B500FA5FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ceruleanaios/Preview Content\"";
+				DEVELOPMENT_TEAM = KC7CA7GXSZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ceruleanaios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cerulean.ceruleanaios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		509EDA8B260399B500FA5FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ceruleanaios/Preview Content\"";
+				DEVELOPMENT_TEAM = KC7CA7GXSZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ceruleanaios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cerulean.ceruleanaios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509EDA6D260399B400FA5FE8 /* Build configuration list for PBXProject "ceruleanaios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509EDA87260399B500FA5FE8 /* Debug */,
+				509EDA88260399B500FA5FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509EDA89260399B500FA5FE8 /* Build configuration list for PBXNativeTarget "ceruleanaios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509EDA8A260399B500FA5FE8 /* Debug */,
+				509EDA8B260399B500FA5FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		501BA1512612941B00E0A41A /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+		50818CF026204EF6000DB920 /* XCRemoteSwiftPackageReference "Sword" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Azoy/Sword";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+		5086C3D62613D1660084B989 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		50B8405B2615FE5F00658B92 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		50CBB5A826415F52000D932C /* XCRemoteSwiftPackageReference "SwiftyHawk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cpageler93/SwiftyHawk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		501BA1522612941B00E0A41A /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 501BA1512612941B00E0A41A /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		50818CF126204EF6000DB920 /* Sword */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50818CF026204EF6000DB920 /* XCRemoteSwiftPackageReference "Sword" */;
+			productName = Sword;
+		};
+		5086C3D72613D1660084B989 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5086C3D62613D1660084B989 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		50B8405C2615FE6000658B92 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50B8405B2615FE5F00658B92 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		50CBB5A926415F52000D932C /* SwiftyHawk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50CBB5A826415F52000D932C /* XCRemoteSwiftPackageReference "SwiftyHawk" */;
+			productName = SwiftyHawk;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		509EDA7B260399B400FA5FE8 /* ceruleanaios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				509EDA7C260399B400FA5FE8 /* ceruleanaios.xcdatamodel */,
+			);
+			currentVersion = 509EDA7C260399B400FA5FE8 /* ceruleanaios.xcdatamodel */;
+			path = ceruleanaios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 509EDA6A260399B400FA5FE8 /* Project object */;
+}
